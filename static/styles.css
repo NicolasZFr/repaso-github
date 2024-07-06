@@ -4,9 +4,19 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    background-color: rgb(179, 179, 179);
+    align-items: center;
+}
+
 h1 {
     text-align: center;
 }
+
 p {
     text-align: justify;
 }
