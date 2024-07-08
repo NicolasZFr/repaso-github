@@ -38,10 +38,54 @@ header ul li {
     margin: 0 1vw;
 }
 
+main {
+    height: 78vh;
+}
 h1 {
     text-align: center;
 }
 
 p {
     text-align: justify;
+}
+
+
+footer {
+    height: 10vh;
+    background-color: rgb(114, 114, 114);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer p{
+    color: white;
+    font-style: italic;
+}
+
+.rights, .terms {
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.rights img {
+    height: 20%;
+    object-fit:cover;
+    margin-right: 1vw;
+}
+
+.terms{
+    justify-content: center;
+}
+
+.terms p {
+    display: inline-block;
+    margin-left: 1vw;
+}
+
+.terms a{
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
 }
