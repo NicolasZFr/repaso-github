@@ -27,6 +27,17 @@ header {
     padding-right: 15%;
 }
 
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1vw;
+}
+
 h1 {
     text-align: center;
 }
